@@ -173,12 +173,45 @@ h2 {
 }
 
 
-
-
-
 @media screen and (max-width: 320px) {
+.header {
+  position: inherit;
+}
+
 nav {
  text-align: center;
   }
+
+.nfl {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 375px) {
+.header {
+  position: inherit;
+}
+  
+nav {
+  text-align: center;
+}
+  
+.nfl {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 425px) {
+.header {
+  position: inherit;
+}
+  
+nav {
+  text-align: center;
+}
+  
+.nfl {
+  width: 100%;
+}
 }
 
